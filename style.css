@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500&family=Roboto:ital,wght@0,300;0,700;1,400&family=Varela+Round&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(141, 79, 79);
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.leftContainer{
+    position: relative;
+    background: #9b5757;
+    margin: 0px;
+    padding: 40px;
+}
+.rightContainer{
+    position: relative;
+    background: rgb(235, 185, 185);
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(73, 28, 28, 0.2);
+}
+.imageBox{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    border-radius: 30%;
+    overflow: hidden;
+}
+.image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactInfo{
+    padding-top: 40px;
+    
+    }
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.list{
+    position: relative;
+}
+.listItem{
+  position: relative;
+  list-style: none;
+  margin: 9px 0;
+  cursor: pointer;
+  font-size: 17px;
+    
+}
+.icon{
+    display: inline-block;
+    width: 20px;
+    font-size: 15px;
+    color:#3d0303;
+}
+.text{
+    color: #fff;
+    font-weight: 300;
+}
+
+
+h5{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+}
+.about{
+    margin-bottom: 50px;
+
+}
+.title2{
+    color:#6d2d2d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: rgb(148, 89, 89);
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.year_company{
+    min-width: 150px;
+}
+.year{
+font-size: 10px;
+color: black;
+}
+.company{
+    font-size: 15px;
+    color: black;
+}
+.designation{
+    font-size: 17px;
+color: black;
+
+}
+
+.skill{
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+
+progress{
+    width: 50%;
+    height: 20px;
+}
+.hobby h4{
+    color: #000;
+}
+.hobby{
+   display: flex;
+   padding: 10px;
+   flex-direction: row;
+   width: 100%;
+   justify-content: space-between;
+}
